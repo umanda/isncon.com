@@ -1,7 +1,7 @@
 <?php
 
     // Your Email Address
-    $youremail = "cbschuld@inspectionsupport.net";
+    $youremail = "info@inspectionsupport.net";
 
     // Register Form
     if ( isset($_POST['email']) && isset($_POST['name']) && filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ) {
@@ -15,7 +15,7 @@
         }
 
         // Email Format
-        $body  =    "New User Registration \n\n";
+        $body  =    "ISNCON User Registration \n\n";
         $body .=    "========== \n\n";
         $body .=    "Name:  $_POST[name] \n\n";
         $body .=    "Email:  $_POST[email] \n\n";
